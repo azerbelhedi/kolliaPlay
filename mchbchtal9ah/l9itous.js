@@ -25,14 +25,17 @@ var loginButton = "Connecter" ;
 displayMain() ;
 renderState = "main";
 
+/*
 var config = {
-    apiKey: "AIzaSyD6DClDypVl6AqFWcg2c7MUu8O56JQLaOo",
-    authDomain: "flybaby-00.firebaseapp.com",
-    databaseURL: "https://flybaby-00.firebaseio.com",
-    projectId: "flybaby-00",
-    storageBucket: "flybaby-00.appspot.com",
-    messagingSenderId: "614291697698"
+    apiKey: 
+    authDomain: 
+    databaseURL: "
+    projectId: 
+    storageBucket: 
+    messagingSenderId: 
 };
+*/
+
 firebase.initializeApp(config);
 var database = firebase.database() ;
 logout() ;
